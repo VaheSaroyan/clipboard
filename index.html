@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Async Clipboard API Image Demo</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h1>Async Clipboard API Image Demo</h1>
+
+<section>
+    <button id="copy"><strong>Copy Chrome Logo</strong><br><em>(write to clipboard)</em></button>
+    <button id="paste"><strong>Paste Image on Clipboard</strong><br><em>(read from clipboard)</em></button>
+</section>
+
+<h3>Permissions:</h3>
+
+<section id="permbuttons"></section>
+
+<h3>Image on clipboard:</h3>
+<image id="image-field" width="500" height="500"></image>
+
+<h3>Example 'image/png' images to copy:</h3>
+
+
+<div id="toast" hidden></div>
+<script src="index.js"></script>
+</body>
+</html>
